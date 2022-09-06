@@ -2,6 +2,8 @@
 
 Welcome to CS 110. I look forward to working with you this semester. This is your porfolio for the semester. All your work, besides the final project, will go into here. When you complete an assignment, you will make a commit and submit the commit hash to Brightspace.
 
+Testing...
+
 ## Course Materials
 
 [http://sm-web.cs.binghamton.edu/](http://sm-web.cs.binghamton.edu/)
