@@ -2,7 +2,7 @@ import turtle
 
 my_turtle = turtle.Turtle() 
 my_screen = turtle.Screen()
-## variable = modile.object 
+## variable = module.object 
 ## capital letter creates an object
 my_turtle.color('purple')
 my_turtle.shape("turtle")
@@ -14,8 +14,9 @@ angle = 360 / sides
 for num in [angle] * sides:
   my_turtle.forward(length)
   my_turtle.left(num)
-
 window = turtle.Screen()
-window.bgcolor("yellow")
+
+window.bgcolor("pink")
 window.exitonclick() ##always last line of code
 ## most data should be saved in a variable (exception is a constant)
+
