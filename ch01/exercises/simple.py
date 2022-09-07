@@ -11,8 +11,8 @@ print(10 / 15)
 
 ## the number is technically infinite, but the program can't infinitely print out the number
 
-rate = float(input("Please input the current exchange rate from Euro to Dollar"))
-amount = float(input("Please input the amount of Euros you have to exchange"))
-total = (amount / rate)
+rate = float(input("Please input the current exchange"))
+amount = float(input("Please input the amount you have to exchange"))
+total = (rate * amount)
 result = (total - 3)
 print(result)
