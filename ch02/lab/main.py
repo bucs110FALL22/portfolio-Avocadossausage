@@ -1,6 +1,6 @@
-#Part A
 import random
 
+#Part A
 weeks = 16
 print(weeks , type(weeks))
 classes = 5
