@@ -14,6 +14,6 @@ Testing...
 
 Preferred Name: Sophia Lee
 
-Discord username: boigahking #4107
+Discord username: boigahking
 
-REPL url: https://replit.com/@SophiaLee24
+REPL url: https://replit.com/join/erujfeblfp-sophialee24
