@@ -14,9 +14,7 @@ angle = 360 / sides
 for num in [angle] * sides:
   my_turtle.forward(length)
   my_turtle.left(num)
-window = turtle.Screen()
-
-window.bgcolor("pink")
-window.exitonclick() ##always last line of code
+  
+my_screen.exitonclick() ##always last line of code
 ## most data should be saved in a variable (exception is a constant)
 
