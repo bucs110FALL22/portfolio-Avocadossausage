@@ -1,3 +1,12 @@
 {
-  "files": {}
+  "files": {
+    "ch03/exercises/guessthenumber.py": [
+      {
+        "id": "a1f41ca7-91f4-4869-88a5-91f773baf559",
+        "line": 11,
+        "version": 294,
+        "index": 256
+      }
+    ]
+  }
 }
