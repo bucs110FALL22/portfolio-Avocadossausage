@@ -1,5 +1,5 @@
 import random
-random_num = random.randrange(1, 11 ,1)
+random_num = random.randrange(1, 11)
 correct_guess = False
 
 n = 3
