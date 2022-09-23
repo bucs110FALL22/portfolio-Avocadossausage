@@ -2,8 +2,7 @@ import turtle #1. import modules
 import random
 import pygame
 import math
-import os
-os.environ["SDL_VIDEODRIVER"] = "dummy"
+## Pygame not working right now, will resubmit later
 
 #Part A
 
@@ -71,13 +70,6 @@ window.fill("pink")
 pygame.display.flip()
 
 pygame.draw.polygon(window, "green", shapeDrawer(4))
-pygame.display.flip()
-pygame.time.delay(500)
-
-window.fill("pink")
-pygame.display.flip()
-
-pygame.draw.polygon(window, "blue", shapeDrawer(4))
 pygame.display.flip()
 pygame.time.delay(500)
 
