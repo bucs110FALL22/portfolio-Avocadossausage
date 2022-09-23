@@ -2,6 +2,8 @@ import turtle #1. import modules
 import random
 import pygame
 import math
+import os
+os.environ["SDL_VIDEODRIVER"] = "dummy"
 
 #Part A
 
@@ -47,14 +49,14 @@ def shapeDrawer(num_sides):
   coords = []
   num_sides = num_sides
   side_length = 25
-  offset = 50
+  offset = 100
 
   for i in range(num_sides):
-    theta = (2.0 * math.pi * n) / num_sides
+    theta = (2.0 * math.pi * i) / num_sides
     x = side_length * math.cos(theta) + offset
     y = side_length * math.sin(theta) + offset
     coords.append([x,y])
-
+    
   return coords
 
 
@@ -103,4 +105,4 @@ pygame.time.delay(500)
 window.fill("pink")
 pygame.display.flip()
 
-window.exitonclick()
+
