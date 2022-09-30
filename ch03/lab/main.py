@@ -3,7 +3,7 @@ import random
 import pygame
 import math
 
-#test
+#test .
 #Part A
 
 window = turtle.Screen()  # 2.  Create a screen
