@@ -2,7 +2,7 @@ import turtle  #1. import modules
 import random
 import pygame
 import math
-## Pygame not working right now, will resubmit later
+
 
 #Part A
 
