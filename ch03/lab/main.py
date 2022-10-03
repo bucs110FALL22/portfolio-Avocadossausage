@@ -58,42 +58,42 @@ def shapeDrawer(num_sides):
 
     return coords
 
-window.fill("white")
+window.fill("pink")
 pygame.display.flip()
 
 pygame.draw.polygon(window, "red", shapeDrawer(3))
 pygame.display.flip()
 pygame.time.delay(500)
 
-window.fill("white")
+window.fill("pink")
 pygame.display.flip()
 
 pygame.draw.polygon(window, "green", shapeDrawer(4))
 pygame.display.flip()
 pygame.time.delay(500)
 
-window.fill("white")
+window.fill("pink")
 pygame.display.flip()
 
 pygame.draw.polygon(window, "purple", shapeDrawer(6))
 pygame.display.flip()
 pygame.time.delay(500)
 
-window.fill("white")
+window.fill("pink")
 pygame.display.flip()
 
 pygame.draw.polygon(window, "yellow", shapeDrawer(9))
 pygame.display.flip()
 pygame.time.delay(500)
 
-window.fill("white")
+window.fill("pink")
 pygame.display.flip()
 
 pygame.draw.polygon(window, "yellow", shapeDrawer(360))
 pygame.display.flip()
 pygame.time.delay(500)
 
-window.fill("white")
+window.fill("pink")
 pygame.display.flip()
 
 pygame.quit()
