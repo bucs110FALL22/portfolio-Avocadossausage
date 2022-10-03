@@ -3,8 +3,6 @@ import random
 import pygame
 import math
 
-#test .
-#Part A
 
 window = turtle.Screen()  # 2.  Create a screen
 window.bgcolor('lightblue')
@@ -24,6 +22,7 @@ michelangelo.speed(1)
 leonardo.speed(1)
 
 ## 5. Your PART A code goes here
+
 randnum = random.randrange(1, 101)
 michelangelo.forward(randnum)
 leonardo.forward(randnum)
@@ -37,6 +36,9 @@ for looper in [1, 11]:
     leonardo.forward(randnum)
 
 window.exitonclick()
+
+
+
 
 # PART B - complete part B here
 
