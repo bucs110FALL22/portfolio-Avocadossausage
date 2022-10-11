@@ -82,4 +82,4 @@ elif redscore < bluescore:
 else:
   print("Tie!")
 
-pygame.time.delay(10000)
+pygame.time.delay(20000)
