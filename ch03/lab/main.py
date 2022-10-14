@@ -5,14 +5,14 @@ import math
 
 
 window = turtle.Screen()  # 2.  Create a screen
-window.bgcolor('lightblue')
+window.bgcolor("white")
 
 michelangelo = turtle.Turtle()  # 3.  Create two turtles
 leonardo = turtle.Turtle()
-michelangelo.color('orange')
-leonardo.color('blue')
-michelangelo.shape('turtle')
-leonardo.shape('turtle')
+michelangelo.color("orange")
+leonardo.color("blue")
+michelangelo.shape("turtle")
+leonardo.shape("turtle")
 
 michelangelo.up()  # 4. Pick up the pen so we don’t get lines
 leonardo.up()
@@ -60,42 +60,42 @@ def shapeDrawer(num_sides):
 
     return coords
 
-window.fill("pink")
+window.fill("white")
 pygame.display.flip()
 
 pygame.draw.polygon(window, "red", shapeDrawer(3))
 pygame.display.flip()
 pygame.time.delay(500)
 
-window.fill("pink")
+window.fill("white")
 pygame.display.flip()
 
 pygame.draw.polygon(window, "green", shapeDrawer(4))
 pygame.display.flip()
 pygame.time.delay(500)
 
-window.fill("pink")
+window.fill("white")
 pygame.display.flip()
 
 pygame.draw.polygon(window, "purple", shapeDrawer(6))
 pygame.display.flip()
 pygame.time.delay(500)
 
-window.fill("pink")
+window.fill("white")
 pygame.display.flip()
 
 pygame.draw.polygon(window, "yellow", shapeDrawer(9))
 pygame.display.flip()
 pygame.time.delay(500)
 
-window.fill("pink")
+window.fill("white")
 pygame.display.flip()
 
-pygame.draw.polygon(window, "yellow", shapeDrawer(360))
+pygame.draw.polygon(window, "blue", shapeDrawer(360))
 pygame.display.flip()
 pygame.time.delay(500)
 
-window.fill("pink")
+window.fill("white")
 pygame.display.flip()
 
 pygame.quit()
