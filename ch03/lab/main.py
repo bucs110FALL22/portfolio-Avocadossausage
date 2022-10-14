@@ -1,4 +1,4 @@
-import turtle  #1. import modules
+import turtle
 import random
 import pygame
 import math
