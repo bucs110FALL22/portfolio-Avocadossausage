@@ -56,7 +56,7 @@ def eyes():
   circle(5)
   
 def mouth():
-  spook.color("red")
+  spook.color("pink")
   spook.goto(0, -75)
   circle(20)
 
