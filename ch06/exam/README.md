@@ -1,9 +1,9 @@
 # CS110 Midterm Exam
 
-## SHORT DESCRIPTION *(This program draws a spooky ghost using the turtle library)*
+## SHORT DESCRIPTION *(This program draws a spooky ghost using the turtle libary)*
 
-## KNOWN BUGS AND INCOMPLETE PARTS *(N/A)*
+## KNOWN BUGS AND INCOMPLETE PARTS *(Nope)*
 
-## REFERENCES *(N/A)*
+## REFERENCES *(Nope)*
 
 ## MISCELLANEOUS COMMENTS *(Changed idea from bowling pin to a Halloween theme.)*

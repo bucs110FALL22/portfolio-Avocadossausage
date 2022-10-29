@@ -1,4 +1,5 @@
 import turtle
+import random
 window = turtle.Screen()
 window.bgcolor("pink")
 window.screensize(1000, 1000)
@@ -16,7 +17,6 @@ def rectangle(l,w):
   spook.goto(150, 0)
   spook.pd()
   spook.begin_fill()
-  spook.goto(150, 0)
   for i in range(unique_sides):
     spook.right(90)
     spook.forward(l)
@@ -25,15 +25,19 @@ def rectangle(l,w):
   spook.end_fill()
   spook.pu()
 
+def eye_highlight():
+  colors = ["yellow", "white", "pink"]
+  chosen_color = random.choice(colors)
+  return chosen_color ##returns random color out of colors
+  
 def wavy_bottom(num_waves):
-  x = 120
+  x = 112.5
   y = -330
-  ## num 10
   spook.pu()
   for i in range(num_waves):
     spook.goto(x, y)
-    circle(60)
-    x = x - 60
+    circle(37.5)
+    x = x - 75
 
 def ghost_base():
   spook.pu()
@@ -41,7 +45,7 @@ def ghost_base():
   spook.goto(0, -150)
   circle(150)
   rectangle(300, 300)
-  wavy_bottom(5)
+  wavy_bottom(4)
 
 def eyes():
   spook.color("black")
@@ -49,7 +53,7 @@ def eyes():
   circle(40)
   spook.goto(55, 0)
   circle(40)
-  spook.color("white")
+  spook.color(eye_highlight())
   spook.goto(-35, 30)
   circle(5)
   spook.goto(75, 30)
