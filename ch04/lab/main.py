@@ -57,29 +57,43 @@ for i in range(n):
     pygame.draw.circle(window, "blue", (dartpos_x, dartpos_y), 10, 0)
     bluescore += 1
     pygame.display.update()
-    pygame.time.delay(200)
+    pygame.time.delay(250)
       
   else:
     pygame.draw.circle(window, "black", (dartpos_x, dartpos_y), 10, 0)
     pygame.display.update()
-    pygame.time.delay(200)
+    pygame.time.delay(250)
           
   if is_in_circle2 == True:
     pygame.draw.circle(window, "red", (dartpos_x2, dartpos_y2), 10, 0)
     redscore += 1
     pygame.display.update()
-    pygame.time.delay(200)
+    pygame.time.delay(250)
       
   else:
     pygame.draw.circle(window, "black", (dartpos_x2, dartpos_y2), 10, 0)
     pygame.display.update()
-    pygame.time.delay(200)
+    pygame.time.delay(250)
 
-if playerchoice == "blue" and bluescore > redscore:
-  print("You win!")
-elif redscore < bluescore:
-  print("You lose!")
-else:
+
+print("Blue's score is:", bluescore)
+print("Red's score is:", redscore)
+pygame.time.delay(500)
+
+if bluescore > redscore:
+  if playerchoice == "blue":
+    print("You win!")
+  else:
+    print("You lose!")
+
+if bluescore == redscore:
   print("Tie!")
 
-pygame.time.delay(20000)
+if redscore > bluescore:
+  if playerchoice == "red":
+    print("You win!")
+  else:
+    print("You lose!")
+
+
+pygame.time.delay(15000)
