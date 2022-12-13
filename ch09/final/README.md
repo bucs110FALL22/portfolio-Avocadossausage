@@ -1,9 +1,9 @@
 # CS110 Final Exam
 
-## SHORT DESCRIPTION *(1 or 2 sentences describing your program)*
+## SHORT DESCRIPTION *(Prints a breaking bad quote, and user inputs a number (1-4), translating the quote to the selected language)*
 
-## KNOWN BUGS AND INCOMPLETE PARTS *(list any known bugs or non-working parts)*
+## KNOWN BUGS AND INCOMPLETE PARTS *(Nope)*
 
-## REFERENCES *(any resources you use outside of class materials)*
+## REFERENCES *(Nope)*
 
-## MISCELLANEOUS COMMENTS *(anything else you would like the grader to know)*
+## MISCELLANEOUS COMMENTS *(Nope)*
